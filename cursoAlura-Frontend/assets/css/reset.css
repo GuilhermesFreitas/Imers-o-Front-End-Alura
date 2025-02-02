@@ -1,0 +1,152 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+}
+
+html {
+  line-height: 1.15; /* Corrige o line-height padrão */
+  -webkit-text-size-adjust: 100%; /* Evita ajustes de tamanho de texto em dispositivos móveis */
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Remove margens e estilos padrão de elementos */
+h1, h2, h3, h4, h5, h6, p, blockquote, figure, pre, dl, dd, ol, ul {
+  margin: 0;
+}
+
+/* Remove estilos de lista */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove estilos de links */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove bordas de imagens dentro de links */
+img {
+  border-style: none;
+}
+
+/* Corrige o display de elementos embutidos */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+}
+
+/* Remove estilos padrão de botões */
+button, input {
+  overflow: visible;
+}
+
+/* Remove herança de text-transform para botões */
+button, select {
+  text-transform: none;
+}
+
+/* Corrige o estilo de botões no Firefox */
+button, [type="button"], [type="reset"], [type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* Remove o padding interno do botão no Firefox */
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* Remove o outline padrão */
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* Remove estilos padrão de campos de formulário */
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+/* Corrige o estilo de legendas */
+legend {
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* Remove estilos padrão de tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove espaçamento adicional em células de tabela */
+th, td {
+  padding: 0;
+}
+
+/* Remove estilos padrão de elementos embutidos */
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+/* Corrige o display de elementos embutidos */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+/* Remove o padding interno de campos de pesquisa no Chrome */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+details {
+  display: block;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+summary {
+  display: list-item;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+template {
+  display: none;
+}
+
+/* Remove estilos padrão de elementos de formulário */
+[hidden] {
+  display: none;
+}

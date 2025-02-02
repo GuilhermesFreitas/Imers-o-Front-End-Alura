@@ -1,0 +1,45 @@
+:root {
+  --ff-base: "DM Sans", sans-serif;
+  --ff-weight_smll:300;
+  --ff-weight: 600;
+  --ff-weight_title: 700;
+  --ff-weight_subtitle:500;
+  --ff-size_smll:0.75rem; /* 12px */
+  --ff-size: 0.875rem; /* 14px */
+  --ff-size-bg: 1rem; /* 16px */
+
+  --color-font:#b3b3b3;
+
+  --bg-color_button: #fff;
+  --bg-color__sizebar: #121212;
+  --bg-color__playlist: #242424;
+  --bg-color_card:#252525;
+  --bg-color:#000;
+  --bg-icons: #131313;
+  --bg-arrow_color: rgba(0,0,07);
+  --bg-color_categorie: #a6a6a6;
+  --bg-color_subscribe: #a7a7a7;
+
+  --color-language:#878787;
+  --color-fa_play: #1db954;
+  --color-white:#fff;
+  --color-pink:#fe2896;
+  --color-blue:#509bf5;
+
+  --color-card_1: rgb(0, 100, 80);
+  --color-card_2: rgb(132, 0, 231);
+  --color-card_3: rgb(30, 50, 100);
+  --color-card_4: rgb(140, 25, 50);
+  --color-card_5: rgb(232, 17, 91);
+  --color-card_6: rgb(83, 122, 161);
+  --color-card_7: rgb(142, 102, 172);
+  --color-card_8: rgb(20, 138, 8);
+  --color-card_9: rgb(30, 50, 100);
+  --color-card_10: rgb(233, 20, 41);
+  --color-card_11: rgb(80, 55, 80);
+  --color-card_12: rgb(216, 64, 0);
+  --color-card_13: rgb(186, 93, 7);
+  --color-card_14: rgb(0, 30, 80);
+  --color-card_15: rgb(60, 30, 80);
+
+}
