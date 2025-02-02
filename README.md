@@ -11,6 +11,5 @@ Tecnologias utilizadas
 Funcionalidades
 
     Exibição de playlists: A aplicação lista as playlists do Spotify em tempo real, utilizando dados da API.
-    Reprodução de músicas: Reprodução de faixas de áudio diretamente na interface.
     Busca: Sistema de busca para encontrar músicas, álbuns e artistas.
     Design Responsivo: A interface é adaptável a diferentes tamanhos de tela, proporcionando uma boa experiência tanto em dispositivos móveis quanto desktops.
